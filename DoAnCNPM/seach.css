@@ -1,0 +1,44 @@
+#main
+ {
+   background: #ece7e7;
+   margin-top:50px;
+ }	
+  #main #error
+ {
+   margin-top:4%;
+   margin-left:40%;
+   font-size:30px;
+   color:#282828;
+ }
+  #main .list
+ {
+   background: #ece7e7;
+   height: 400px;
+   width:19%;
+   margin-left:5%;
+   float:left;
+   text-align:center;
+ }  
+  #main .list ul
+ {
+   margin:0px;
+   padding:0px;
+   
+ }  
+  #main .list ul li
+ {
+   list-style:none;
+ }  
+  #main .list ul li .price
+ {
+   color:red;
+ }
+  #main .list .see_move:hover
+ {
+   background:pink;
+ }
+  #main .list img
+ {
+   height: 300px;
+   width:100%;
+ }

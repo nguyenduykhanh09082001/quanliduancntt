@@ -1,0 +1,81 @@
+  #main
+ {
+   background: #ece7e7;
+   height: 1000px;
+   position:relative;
+   margin-top:1%;
+ } 
+  #main #left
+ {
+   width:40%;
+   height:400px;
+   background:#ece7e7;
+   margin-left:100px;
+   margin-top:100px;
+   float:left;
+   position:absolute;
+ }
+  #main #left img
+ {
+   width:50%;
+   height:400px;
+   margin-left:140px;
+ }
+  #main #right
+ {
+   width:40%;
+   height:400px;
+   background:#ece7e7;
+   margin-left:800px;
+   margin-top:100px;
+   position:absolute;
+ }
+  #main #right form #name
+  {
+   color:#4c4c4c;
+  }
+  #main #right form h5
+  {
+   margin-top:10px;
+  }
+  #main #right form #price
+  {
+   color:#e57777;
+   margin-top:30px;
+  }
+  #main #right form select
+  {
+   margin-top:30px;
+   font-size:20px;
+  }
+  #main #right form h4
+  {
+   color:#4c4c4c;
+   margin-top:10px;
+  }
+  #main #right form input
+  {
+   margin-top:30px;
+   font-size:30px;
+   width:35%;
+   background:pink;
+  }
+ #main #description
+ {
+   width:79%;
+   height:300px;
+   background:#ece7e7;
+   margin-top:600px;
+   margin-left:180px;
+   position:absolute;
+ }
+  #main #description h2
+ {
+   text-align:center;
+   color:#4c4c4c;
+ }
+  #main #description h4
+ {
+   margin-top:30px;
+   color:#4c4c4c;
+ }

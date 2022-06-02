@@ -1,0 +1,157 @@
+*
+ {
+   margin:0;
+   padding:0;
+   font-family: Roboto,sans-serif;
+ }
+  body
+ {
+   background: #ece7e7;
+   width: 100%;
+   height: 1000px; 
+ }
+  #header
+ { 
+   background: #ece7e7;
+   height: 200px; 
+   position:relative;   
+ } 
+  #header #container
+ {
+   background: #ece7e7;
+   height: 100px;
+   width:80%;
+   margin-top:1%;
+   left:10%;
+   position:absolute;
+ }
+  #header #container #logo
+ {
+   height:100px;
+   width:10%;
+   float:left;
+ } 
+  #header #container #logo img
+ {
+   height:100px;
+   width:100%;
+ } 
+  #header #container #seach
+ { 
+   background:#ece7e7;
+   height:100px;
+   width:50%;
+   float:left;
+   margin-left:15%;
+ } 
+  #header #container #seach form
+ { 
+   line-height:100px;
+ } 
+  #header #container #seach form #tx
+ { 
+   background:#ece7e7;
+   width:400px;
+   height:35px;
+   margin-left:90px;
+   float:left;
+   margin-top:30px;
+ } 
+  #header #container #seach form #sm
+ { 
+   height:35px;
+   width:90px;
+   margin-top:-35px;
+   margin-left:-20px;
+   background:#ece7e7;
+ } 
+  #header #container #login
+ { background:#ece7e7;
+   height:100px;
+   width:20%;
+   float:left;
+   margin-left:5%;
+ } 
+  #header #container #login a
+ {
+   color:#4d4d4d;
+   text-decoration:none;
+ }
+  #header #container #login a #check
+ {
+   margin:-20px 0px 0px 45px;
+ }
+ #header #container #login #mid
+ {
+   margin:-18px 0px 0px 130px;
+ }
+ #header #container #login a #p1
+ {
+   margin:-18px 0px 0px 140px;
+ }
+  #header #container #login a:hover
+ {
+   color:red;
+ }
+  #header #container #login a img
+ {
+   width:13%;
+   height:30px;
+   margin:30px 0px 0px 10px;
+ }
+  #header #menu
+ {
+   background: #ece7e7;
+   height: 60px;
+   width:80%;
+   margin-top:9%;
+   left:10%;
+   position:absolute;
+ }
+  #header #menu ul
+ {
+   margin-left:200px;
+   padding:0px;
+ }
+  #header #menu ul li
+ {
+   list-style:none;
+   background: #ece7e7;
+   height: 40px;
+   width:13%;
+   line-height:40px;
+   text-align:center;
+   float:left;
+   margin-left:0%;
+   display:block;
+   border-right: 1px solid #cdc8c8;
+ }
+  #header #menu ul li a
+ {
+   display:block;
+   text-decoration:none;
+   color:#4d4d4d;
+ }
+  #header #menu ul li:hover 
+ {
+   background-color:pink;
+ }
+  #header #menu ul li:hover > ul
+ {
+   display:block;
+ }
+  #header #menu ul li ul
+ {
+   margin:0px;
+   padding:0px;
+   display:none;
+ }
+  #header #menu ul li ul li
+ {
+   list-style:none;
+   background: #fff;
+   height: 60px;
+   width:100%;
+   margin-left:0%;
+   color:#c48c46;
+ }
